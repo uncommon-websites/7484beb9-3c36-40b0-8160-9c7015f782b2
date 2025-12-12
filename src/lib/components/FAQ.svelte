@@ -7,13 +7,13 @@
   }
 
   const faqs: FAQItem[] = [
-    { question: "Do I have to trust the lead investor with my investment?", answer: "Details about trust and lead investors..." },
-    { question: "How does Echo work?", answer: "Echo works by connecting..." },
-    { question: "I want to share my deals. Can I start a group?", answer: "Yes, you can start a group by..." },
-    { question: "I'm a founder. How do I raise money from Echo?", answer: "Founders can raise money by..." },
-    { question: "Is everyone eligible to use Echo?", answer: "Eligibility depends on..." },
-    { question: "Why do founders raise from Echo groups?", answer: "Founders choose Echo because..." },
-    { question: "Why would someone share their deals with me?", answer: "Sharing deals allows for..." }
+    { question: "How does Fruit track KOL signals?", answer: "Fruit monitors influential crypto voices across Twitter, Discord, and Telegram in real-time. Our infrastructure processes millions of messages to identify when KOLs mention specific tokens, projects, or market trends, converting this unstructured social data into structured, searchable intelligence." },
+    { question: "What data sources does Fruit analyze?", answer: "We track major crypto social platforms including Twitter/X, Discord servers, Telegram channels, and other community spaces where influential traders and builders share alpha. Our system focuses on verified KOLs and high-signal sources to reduce noise." },
+    { question: "How early are the signals?", answer: "Fruit captures signals before they hit mainstream channels. By monitoring KOLs in real-time, you can see mentions and discussions as they happen, often hours or days before information spreads to wider crypto communities and impacts token prices." },
+    { question: "Is this financial advice?", answer: "No. Fruit provides informational data only. All information on the platform is for research and educational purposes. We do not provide investment advice. Always do your own research (DYOR) before making any investment decisions." },
+    { question: "How do I access the beta?", answer: "Visit fruitdatalabs.xyz/v2 to access the live beta platform. We're actively developing new features and welcome community feedback as we build in public." },
+    { question: "Who built Fruit?", answer: "Fruit is built by a pseudonymous founder with nearly 4 years in web3, experience architecting structured memory systems for LLMs at OpenAI, and a background building cloud security infrastructure for federal agencies and medical database platforms." },
+    { question: "What makes Fruit different from other analytics tools?", answer: "Fruit focuses specifically on converting social intelligence into structured data before tokens move. While other tools analyze on-chain metrics or aggregate social sentiment, we specialize in real-time KOL tracking and early signal detection from unstructured social chatter." }
   ];
 
   let openIndex: number | null = null;
